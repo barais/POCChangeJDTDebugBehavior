@@ -86,7 +86,9 @@ public aspect MyAspect {
 			
 			for(StackFrame frame : tref.frames()) {
 				System.err.println(frame.getClass());
-				org.eclipse.jdi.internal.StackFrameImpl impl = (StackFrameImpl) frame;
+				
+				//org.eclipse.jdi.internal.StackFrameImpl impl = (StackFrameImpl) frame;
+				
 			}
 
 			
